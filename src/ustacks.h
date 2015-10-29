@@ -88,11 +88,11 @@ class HVal {
     vector<int> ids;
 
     int count() {
-	return this->ids.size();
+        return this->ids.size();
     }
     int add_id(int id) {
-    	this->ids.push_back(id);
-	return 0;
+        this->ids.push_back(id);
+        return 0;
     }
 };
 
