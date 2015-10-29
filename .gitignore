@@ -1,2 +1,27 @@
 *.swp
 tags
+
+# Compiled code
+*.o
+Makefile
+.deps
+.dirstamp
+config.*
+stamp-*
+
+# binaries
+clone_filter
+cstacks
+estacks
+genotypes
+hstacks
+kmer_filter
+phasedstacks
+populations
+process_radtags
+process_shortreads
+pstacks
+rxstacks
+sstacks
+ustacks
+
